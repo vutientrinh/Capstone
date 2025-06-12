@@ -1,0 +1,4607 @@
+{
+	"info": {
+		"_postman_id": "dd93a9c8-e8dc-4df5-a407-89b19aeaa809",
+		"name": "bento-jwt",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32371103",
+		"_collection_link": "https://cafe-api-0231.postman.co/workspace/My-Workspace~6958d6f0-9797-4064-89c1-361ed962458c/collection/32371103-dd93a9c8-e8dc-4df5-a407-89b19aeaa809?action=share&source=collection_link&creator=32371103"
+	},
+	"item": [
+		{
+			"name": "TestController",
+			"item": [
+				{
+					"name": "giaohanhnhanh",
+					"item": [
+						{
+							"name": "generals",
+							"item": [
+								{
+									"name": "GET",
+									"item": [
+										{
+											"name": "get province",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "Token",
+														"value": "fa84809c-0f92-11f0-95d0-0a92b8726859",
+														"type": "text"
+													}
+												],
+												"url": {
+													"raw": "https://dev-online-gateway.ghn.vn/shiip/public-api/master-data/province",
+													"protocol": "https",
+													"host": [
+														"dev-online-gateway",
+														"ghn",
+														"vn"
+													],
+													"path": [
+														"shiip",
+														"public-api",
+														"master-data",
+														"province"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "get disctrict",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "Token",
+														"value": "fa84809c-0f92-11f0-95d0-0a92b8726859",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dev-online-gateway.ghn.vn/shiip/public-api/master-data/district?province_id=202",
+													"protocol": "https",
+													"host": [
+														"dev-online-gateway",
+														"ghn",
+														"vn"
+													],
+													"path": [
+														"shiip",
+														"public-api",
+														"master-data",
+														"district"
+													],
+													"query": [
+														{
+															"key": "province_id",
+															"value": "202"
+														}
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "get ward",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "Token",
+														"value": "fa84809c-0f92-11f0-95d0-0a92b8726859",
+														"type": "text"
+													}
+												],
+												"url": {
+													"raw": "https://dev-online-gateway.ghn.vn/shiip/public-api/master-data/ward?district_id=3695",
+													"protocol": "https",
+													"host": [
+														"dev-online-gateway",
+														"ghn",
+														"vn"
+													],
+													"path": [
+														"shiip",
+														"public-api",
+														"master-data",
+														"ward"
+													],
+													"query": [
+														{
+															"key": "district_id",
+															"value": "3695"
+														}
+													]
+												}
+											},
+											"response": []
+										}
+									]
+								},
+								{
+									"name": "POST",
+									"item": [
+										{
+											"name": "availabel service",
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "token",
+														"value": "fa84809c-0f92-11f0-95d0-0a92b8726859",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"from_district\": 3695,\r\n    \"to_district\": 3695,\r\n    \"shop_id\": 196276\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dev-online-gateway.ghn.vn/shiip/public-api/v2/shipping-order/available-services",
+													"protocol": "https",
+													"host": [
+														"dev-online-gateway",
+														"ghn",
+														"vn"
+													],
+													"path": [
+														"shiip",
+														"public-api",
+														"v2",
+														"shipping-order",
+														"available-services"
+													],
+													"query": [
+														{
+															"key": "from_district",
+															"value": "3695",
+															"disabled": true
+														},
+														{
+															"key": "to_district",
+															"value": "2090",
+															"disabled": true
+														},
+														{
+															"key": "shop_id",
+															"value": "196276",
+															"disabled": true
+														}
+													]
+												}
+											},
+											"response": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "tmp",
+							"item": [
+								{
+									"name": "order",
+									"item": [
+										{
+											"name": "create order",
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "token",
+														"value": "fa84809c-0f92-11f0-95d0-0a92b8726859",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"shop_id\": 196276,\r\n    // Sender    \r\n    \"from_name\": \"HO THANH DUY\",\r\n    \"from_phone\": \"0364484261\",\r\n    \"from_address\": \"484 Lê Văn Việt, Tăng Nhơn Phú A, Thủ Đức\",\r\n    \"from_ward_name\": \"Phường Tăng Nhơn Phú A\",\r\n    \"from_district_name\": \"Thành Phố Thủ Đức\",\r\n    \"from_provice_name\": \"Hồ Chí Minh\",\r\n    // Client name\r\n    \"to_name\": \"HO GIA PHAT\",\r\n    \"to_phone\": \"0987654321\",\r\n    \"to_address\": \"699, tổ 17, Mỹ Phó, Mỹ Đức, Châu Phú, An Giang\",\r\n    \"to_ward_code\": \"510809\",\r\n    \"to_district_id\": 1758,    \r\n    \"weight\": 200,\r\n    // \"length\": \"\",\r\n    // \"width\": \"\",\r\n    // \"height\": \"\",\r\n    \"service_id\": 53321,\r\n    \"service_type_id\": 2,\r\n    // 1. Shop/Seller; 2. Buyer/Consignee: cost of shipping\r\n    \"payment_type_id\": 2,\r\n    // CHOTHUHANG, CHOXEMHANGKHONGTHU, KHONGCHOXEMHANG\r\n    \"required_note\": \"CHOXEMHANGKHONGTHU\",\r\n    // product\r\n    \"coupon\": null,\r\n    \"items\": [\r\n        {\r\n            \"name\": \"Áo Polo\",\r\n            \"code\": \"Polo123\",\r\n            \"quantity\": 1,\r\n            \"price\": 200000,\r\n            \"length\": 12,\r\n            \"width\": 12,\r\n            \"height\": 12,\r\n            \"weight\": 1200,\r\n            \"category\": {\r\n                \"level1\": \"Áo\"\r\n            }\r\n        }\r\n    ]\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dev-online-gateway.ghn.vn/shiip/public-api/v2/shipping-order/create",
+													"protocol": "https",
+													"host": [
+														"dev-online-gateway",
+														"ghn",
+														"vn"
+													],
+													"path": [
+														"shiip",
+														"public-api",
+														"v2",
+														"shipping-order",
+														"create"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "detail order",
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "token",
+														"value": "fa84809c-0f92-11f0-95d0-0a92b8726859",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"order_code\": \"LBGD93\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dev-online-gateway.ghn.vn/shiip/public-api/v2/shipping-order/detail",
+													"protocol": "https",
+													"host": [
+														"dev-online-gateway",
+														"ghn",
+														"vn"
+													],
+													"path": [
+														"shiip",
+														"public-api",
+														"v2",
+														"shipping-order",
+														"detail"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "update order",
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "token",
+														"value": "fa84809c-0f92-11f0-95d0-0a92b8726859",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"note\": \"nhớ gọi 30p khi giao.\",\r\n    \"order_code\": \"LBGN6X\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dev-online-gateway.ghn.vn/shiip/public-api/v2/shipping-order/update",
+													"protocol": "https",
+													"host": [
+														"dev-online-gateway",
+														"ghn",
+														"vn"
+													],
+													"path": [
+														"shiip",
+														"public-api",
+														"v2",
+														"shipping-order",
+														"update"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "update COD of order",
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "token",
+														"value": "fa84809c-0f92-11f0-95d0-0a92b8726859",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"order_code\": \"LBGN6X\",\r\n    \"cod_amount\": 0\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dev-online-gateway.ghn.vn/shiip/public-api/v2/shipping-order/updateCOD",
+													"protocol": "https",
+													"host": [
+														"dev-online-gateway",
+														"ghn",
+														"vn"
+													],
+													"path": [
+														"shiip",
+														"public-api",
+														"v2",
+														"shipping-order",
+														"updateCOD"
+													]
+												}
+											},
+											"response": []
+										}
+									]
+								},
+								{
+									"name": "Fee of Order Info",
+									"item": [
+										{
+											"name": "calculate fee",
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "token",
+														"value": "fa84809c-0f92-11f0-95d0-0a92b8726859",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"shop_id\": 196276,\r\n    \"service_id\": 53321,\r\n    \"service_type_id\": 2,\r\n    \"to_ward_code\": \"22407\",\r\n    \"to_district_id\": 3695,\r\n    \"weight\": 0\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dev-online-gateway.ghn.vn/shiip/public-api/v2/shipping-order/fee",
+													"protocol": "https",
+													"host": [
+														"dev-online-gateway",
+														"ghn",
+														"vn"
+													],
+													"path": [
+														"shiip",
+														"public-api",
+														"v2",
+														"shipping-order",
+														"fee"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "fee of order",
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "token",
+														"value": "fa84809c-0f92-11f0-95d0-0a92b8726859",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{    \r\n    \"shop_id\": 196276,\r\n    \"order_code\": \"LBGP9A\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://dev-online-gateway.ghn.vn/shiip/public-api/v2/shipping-order/soc",
+													"protocol": "https",
+													"host": [
+														"dev-online-gateway",
+														"ghn",
+														"vn"
+													],
+													"path": [
+														"shiip",
+														"public-api",
+														"v2",
+														"shipping-order",
+														"soc"
+													]
+												}
+											},
+											"response": []
+										}
+									]
+								},
+								{
+									"name": "get my store",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Token",
+												"value": "fa84809c-0f92-11f0-95d0-0a92b8726859",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "https://dev-online-gateway.ghn.vn/shiip/public-api/v2/shop/all",
+											"protocol": "https",
+											"host": [
+												"dev-online-gateway",
+												"ghn",
+												"vn"
+											],
+											"path": [
+												"shiip",
+												"public-api",
+												"v2",
+												"shop",
+												"all"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "POST",
+							"item": [
+								{
+									"name": "estimate shipping fee",
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": [
+												{
+													"key": "token",
+													"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzczMjc0NiwiZXhwIjoxNzQzNzM2MzQ2fQ.Iw4z_UprEvKpVyd3QVAyBCIi2V4EXrsSYdZ9z7JyyKG308_J3QeK1Cr2GeMr-pKHtCkbtWrCu0kCBsqrcPm8bg",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"shop_id\": 196276,\r\n    \"service_id\": 53321,\r\n    \"service_type_id\": 5,\r\n    \"to_ward_code\": \"90767\",\r\n    \"to_district_id\": 3695,\r\n    // 50.000 gram (53321, 2)\r\n    \"weight\": 50000\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:8080/api/test/estimate-shipping-fee",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"api",
+												"test",
+												"estimate-shipping-fee"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "get shipping fee by order",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "token",
+												"value": "fa84809c-0f92-11f0-95d0-0a92b8726859",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "http://localhost:8080/api/test/shipping-fee?orderCode=LBGP9A",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"api",
+												"test",
+												"shipping-fee"
+											],
+											"query": [
+												{
+													"key": "orderCode",
+													"value": "LBGP9A"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "create order",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											},
+											{
+												"key": "token",
+												"value": "fa84809c-0f92-11f0-95d0-0a92b8726859",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"shop_id\": 196276,\r\n    // Sender    \r\n    \"from_name\": \"HO THANH DUY\",\r\n    \"from_phone\": \"0364484261\",\r\n    \"from_address\": \"484 Lê Văn Việt, Tăng Nhơn Phú A, Thủ Đức\",\r\n    \"from_ward_name\": \"Phường Tăng Nhơn Phú A\",\r\n    \"from_district_name\": \"Thành Phố Thủ Đức\",\r\n    \"from_provice_name\": \"Hồ Chí Minh\",\r\n    // Client name\r\n    \"to_name\": \"HO GIA PHAT\",\r\n    \"to_phone\": \"0987654321\",\r\n    \"to_address\": \"699, tổ 17, Mỹ Phó, Mỹ Đức, Châu Phú, An Giang\",\r\n    \"to_ward_code\": \"510809\",\r\n    \"to_district_id\": 1758,    \r\n    \"weight\": 300,\r\n    // \"length\": \"\",\r\n    // \"width\": \"\",\r\n    // \"height\": \"\",\r\n    \"service_id\": 53321,\r\n    \"service_type_id\": 2,\r\n    // 1. Shop/Seller; 2. Buyer/Consignee: cost of shipping\r\n    \"payment_type_id\": 2,\r\n    // CHOTHUHANG, CHOXEMHANGKHONGTHU, KHONGCHOXEMHANG\r\n    \"required_note\": \"CHOXEMHANGKHONGTHU\",\r\n    // product\r\n    \"coupon\": null,\r\n    \"items\": [\r\n        {\r\n            \"name\": \"Áo Polo\",\r\n            \"code\": \"Polo123\",\r\n            \"quantity\": 1,\r\n            \"price\": 200000,\r\n            \"length\": 12,\r\n            \"width\": 12,\r\n            \"height\": 12,\r\n            \"weight\": 1200,\r\n            \"category\": {\r\n                \"level1\": \"T-Shirt\"\r\n            }\r\n        }\r\n    ]\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:8080/api/test/create-order",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"api",
+												"test",
+												"create-order"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "get order detail",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											},
+											{
+												"key": "token",
+												"value": "fa84809c-0f92-11f0-95d0-0a92b8726859",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"url": {
+											"raw": "http://localhost:8080/api/test/get-detail?orderCode=LBGP9A",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"api",
+												"test",
+												"get-detail"
+											],
+											"query": [
+												{
+													"key": "orderCode",
+													"value": "LBGP9A"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "preview order",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "token",
+												"value": "fa84809c-0f92-11f0-95d0-0a92b8726859",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"shop_id\": 196276,\r\n    // Sender    \r\n    \"from_name\": \"HO THANH DUY\",\r\n    \"from_phone\": \"0364484261\",\r\n    \"from_address\": \"484 Lê Văn Việt, Tăng Nhơn Phú A, Thủ Đức\",\r\n    \"from_ward_name\": \"Phường Tăng Nhơn Phú A\",\r\n    \"from_district_name\": \"Thành Phố Thủ Đức\",\r\n    \"from_provice_name\": \"Hồ Chí Minh\",\r\n    // Client name\r\n    \"to_name\": \"HO GIA PHAT\",\r\n    \"to_phone\": \"0987654321\",\r\n    \"to_address\": \"699, tổ 17, Mỹ Phó, Mỹ Đức, Châu Phú, An Giang\",\r\n    \"to_ward_code\": \"510809\",\r\n    \"to_district_id\": 1758,    \r\n    \"weight\": 200,\r\n    // \"length\": \"\",\r\n    // \"width\": \"\",\r\n    // \"height\": \"\",\r\n    \"service_id\": 53321,\r\n    \"service_type_id\": 2,\r\n    // 1. Shop/Seller; 2. Buyer/Consignee: cost of shipping\r\n    \"payment_type_id\": 2,\r\n    // CHOTHUHANG, CHOXEMHANGKHONGTHU, KHONGCHOXEMHANG\r\n    \"required_note\": \"CHOXEMHANGKHONGTHU\",\r\n    // product\r\n    \"coupon\": null,\r\n    \"items\": [\r\n        {\r\n            \"name\": \"Áo Polo\",\r\n            \"code\": \"Polo123\",\r\n            \"quantity\": 1,\r\n            \"price\": 200000,\r\n            \"length\": 12,\r\n            \"width\": 12,\r\n            \"height\": 12,\r\n            \"weight\": 1200,\r\n            \"category\": {\r\n                \"level1\": \"Áo\"\r\n            }\r\n        }\r\n    ]\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:8080/api/test/preview-order",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"api",
+												"test",
+												"preview-order"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "cancel order",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"orderCode\": [\"LBGP9A\"]\r\n}\r\n",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:8080/api/test/cancel-order",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"api",
+												"test",
+												"cancel-order"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "GET",
+							"item": [
+								{
+									"name": "get my shop",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8080/api/test/get-shop",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"api",
+												"test",
+												"get-shop"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Public",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/test/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"test",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Private",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MDIxNjk2NiwiZXhwIjoxNzQwMjIwNTY2fQ.OlSaUCz5h_f65M13O2jkTD4DcOSAt8WVilorZQiaOX6cElOnYr3W01-DP7asv53GiwKGULGmkTWdEGlBslGljw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/test/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"test",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Admin",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MDIxNjk2NiwiZXhwIjoxNzQwMjIwNTY2fQ.OlSaUCz5h_f65M13O2jkTD4DcOSAt8WVilorZQiaOX6cElOnYr3W01-DP7asv53GiwKGULGmkTWdEGlBslGljw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/test/admin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"test",
+								"admin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Test save cache",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/test/cache",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"test",
+								"cache"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Test pubsub redis",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/test/pubsub",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"test",
+								"pubsub"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Not found endpoints",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MTc2NjAxMywiZXhwIjoxNzQxNzY5NjEzfQ.FMGQr0q0ksyayS9YBRlXTCYK-faZZmjgFttA1s_7JVd05VcQH9bc0fqaONM09kK89MPN4Ixc_tB6XzforglogA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/test/not-found",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"test",
+								"not-found"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Locale",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "en-US",
+								"type": "text"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "fr-FR",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept-Language",
+								"value": "vi-VN",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json; charset=utf-8",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/api/test/locale",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"test",
+								"locale"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Socket",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "en-US",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept-Language",
+								"value": "fr-FR",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept-Language",
+								"value": "vi-VN",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json; charset=utf-8",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/api/test/socket",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"test",
+								"socket"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "AuthenticationController",
+			"item": [
+				{
+					"name": "SignIn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"Alice\",\r\n    \"password\": \"password\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SignUp",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"delete\",\r\n    \"email\": \"delete@example.com\",\r\n    \"password\": \"password\",\r\n    \"role\": [\"USER\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/auth/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "LogOut",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MjUzNTc0MCwiZXhwIjoxNzQyNTM5MzQwfQ.YFtLXse4alawtqmnGyCQjxi5varGKraJ_WvFx9H-HOTbKZ-zBhJwG3pOrejhLDY7remdqQPb3zXm-m5kD7JqUA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/auth/signout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"auth",
+								"signout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RefreshToken",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"refreshToken\": \"5b6e93b1-c5b7-407d-8ab0-8aeffe4ebe3d\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/auth/refreshtoken",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"auth",
+								"refreshtoken"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Introspect",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "vi-VN",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"token\": \"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MjM2NzcxNiwiZXhwIjoxNzQyMzcxMzE2fQ.HYTlNZq01fiGATS7uvsub-wkxh6JaSY8QhggeAFQ7Brvd1X8wdm8e8YIDl-r5s_c_g4Y6w9R70DuhULDoXSwIw\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/auth/introspect",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"auth",
+								"introspect"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ProfileController",
+			"item": [
+				{
+					"name": "get all users",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzgzNzcxOSwiZXhwIjoxNzQzODQxMzE5fQ.MUJRARCYHP8-RQDjpvXOHe_cC03rAdZdA9W241mGVMycN5L2No9PdBJhcQJFnfeTZdc-S6D5-R-e_7BHlVpB1A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "vi-VN",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/api/users/all?page=1&size=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"all"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "size",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get profile by token",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MjgyODExMCwiZXhwIjoxNzQyODMxNzEwfQ.ie9m4kSJZlQ2eUz_OdRiJVpuwZ-TUY7XQ8JLrapaJPmWmmZg0b7NPx7vHdGp4VbS4M7Fm1Ble88bVeYq5gmn-g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/profile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get profile by id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzgzNzcxOSwiZXhwIjoxNzQzODQxMzE5fQ.MUJRARCYHP8-RQDjpvXOHe_cC03rAdZdA9W241mGVMycN5L2No9PdBJhcQJFnfeTZdc-S6D5-R-e_7BHlVpB1A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/profile/6dbb011a-2beb-4fc4-97c3-666c1bef560d",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"profile",
+								"6dbb011a-2beb-4fc4-97c3-666c1bef560d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get profile by username",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzAwNTY0MCwiZXhwIjoxNzQzMDA5MjQwfQ.n_EOeXL1TnokUyhMeOWk8ND5G_3hSG_Cq1PQrCUAs_tfN4eTIYMbZseEh4s6yRRIljFWDbujga2OMHXs6yp1nQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/profile/accounts/Alice",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"profile",
+								"accounts",
+								"Alice"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update password",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MDMyOTc4NywiZXhwIjoxNzQwMzMzMzg3fQ.ZNdHl6LPytoL83qex9WBp5Po8ZtdQSHQY7XjYa-AoNkXB-Rp7zAEdTP0-uKFe2fnvo9KWip1IbcGp-0hxEJBzg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"currentPassword\": \"12345678\",\r\n    \"newPassword\": \"password\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/users/change-password",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"change-password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update profile by token",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MjU4NTM1OCwiZXhwIjoxNzQyNTg4OTU4fQ.wwPb2R-AlOaLt56LwREUdoNPYj_42jauC0SfjbDre9OBqvLtYL6Ws9j0CApw8DyyjbTyqLhhJvspy5dVhIXp4A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"avatar\": \"http://localhost:8080/minio/download/commons/7c9d1eff2f664d3a8ee02290f417ac8e.jpg\",\r\n  \"cover\": \"https://example.com/cover.jpg\",\r\n  \"firstName\": \"Alice\",\r\n  \"lastName\": \"Thompson\",       \r\n  \"bio\": \"A passionate developer and tech enthusiast.\",\r\n  \"websiteUrl\": \"https://alice.com\" \r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/users/profile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete profile by id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MDMwMzg0OSwiZXhwIjoxNzQwMzA3NDQ5fQ.ofEt8Vx4b9JZjOq3DmoE72JzqTn_0MKnId8jI6NFNQ6vCIyW6W24XFG___jhizX202kRZoJWxQ_muVmU4dP9Ug",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/profile/2b8fdf29-79dd-4593-8b8c-4ef8ebe3aea6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"profile",
+								"2b8fdf29-79dd-4593-8b8c-4ef8ebe3aea6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get friend's profile*",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "get follow's profile*",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "get by username",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJCb2IiLCJpYXQiOjE3NDI1ODQwNTcsImV4cCI6MTc0MjU4NzY1N30.1O9FZNKkGiYUc4INg2iHCbQ5kfPjPjia7TX0CK1ZafeYYPXCLlnN3Iw4SaFYF0dazSwJBgY0tVStiV5BKjjQbQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/profile/accounts/Bob",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"profile",
+								"accounts",
+								"Bob"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get suggested",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzU2MjY4OSwiZXhwIjoxNzQzNTY2Mjg5fQ.HTdkwuy7Hs1P_lWFKXh5NjCzxNLt2qYI7RV0p6ZBhZiFDylncfm0Brxvy3GIhojwX9o0MFYb7ro_-WjCGecDDA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/suggested?page=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"suggested"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "size",
+									"value": "5",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PostController",
+			"item": [
+				{
+					"name": "Get all Posts",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzYwNDQ4OCwiZXhwIjoxNzQzNjA4MDg4fQ.FbZuC3KxQl1Fjha7hN418veTLt9L5ZQzV2UHm0YyyfhgErAS0qS8fYbQc9TtbNiv0GBA7rczOdjkHieYLnYS-A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/posts?page=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"posts"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "size",
+									"value": "5",
+									"disabled": true
+								},
+								{
+									"key": "type",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post by Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MjkwMTcxNSwiZXhwIjoxNzQyOTA1MzE1fQ.hcmn8O_gbZprg226bKMG7P6ySYiWrYxzJMVpisRxQGfSTOKF4yx-H2eJs56kIj84CUZmcYRnD8ansMOl3xFtoQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/posts/40f67ebe-301f-4c81-8ab1-dc8119d34c6b",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"posts",
+								"40f67ebe-301f-4c81-8ab1-dc8119d34c6b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New posts Copy*",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzA3ODc5MCwiZXhwIjoxNzQzMDgyMzkwfQ.HTunnhpJlCW0ieMEgJ3b3DDAj_zddWXpg9tJBxpX1nFz3hBbvBDskU_eVTh4JbDwEM0OIRQmkW63bvm_DwMdSw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "content",
+									"value": "Fix new post creation",
+									"type": "text"
+								},
+								{
+									"key": "images",
+									"type": "file",
+									"src": "/C:/Users/ADMIN/Desktop/wireframe/images/second.jpg"
+								},
+								{
+									"key": "authorId",
+									"value": "0a22c812-f19e-4848-8bc7-3fdb69ea5bec",
+									"type": "text"
+								},
+								{
+									"key": "topicId",
+									"value": "7b30a1cd-b808-4b2a-b7bf-770011b5ae8c",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/posts",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update post existed Copy*",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzE0NjQ2OSwiZXhwIjoxNzQzMTUwMDY5fQ.EA6F8WPT1jWmUplx8q6IDH5Yk4Z6DMIpQf5RU8f72HryHksLwQQHTuc_XSyEWp38FWKRZ0N_UQazm9ndJu8KWg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "content",
+									"value": "Test lại new post.",
+									"type": "text"
+								},
+								{
+									"key": "images",
+									"type": "file",
+									"src": [
+										"/C:/Users/ADMIN/Desktop/wireframe/images/second.jpg",
+										"/C:/Users/ADMIN/Desktop/wireframe/images/third.jpg"
+									]
+								},
+								{
+									"key": "topicId",
+									"value": "6b308001-c009-4897-b0fa-bd8f7668adb9",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "PUBLIC",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "TEXT",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/posts/05c3b3de-e46a-4f0d-90cd-faea14924c56",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"posts",
+								"05c3b3de-e46a-4f0d-90cd-faea14924c56"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete post by Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzA3ODg5NiwiZXhwIjoxNzQzMDgyNDk2fQ.MRjOWJC__1kelXlxto6oj47br5EAZeNzxvI7b3y7647uNXvOwEL1VcF9VG6NmKAjvn1jFGaWPqSooWxLD4GK2A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/posts/ddc6b108-9ad9-4951-bdda-5803bd429451",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"posts",
+								"ddc6b108-9ad9-4951-bdda-5803bd429451"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get posts by Ids*",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "get trending post",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJCb2IiLCJpYXQiOjE3NDM1MTE2MDcsImV4cCI6MTc0MzUxNTIwN30.wCrDstcC8dqZ3txjSo0pv0ZbsHyF77RA1VWR-WXSlDvHNWPEpJwVlqVnhq5WGmVyOe8Sa9bdfXJR-W_NI2OUDA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/posts/trending?page=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"posts",
+								"trending"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TopicController",
+			"item": [
+				{
+					"name": "Get all Topics",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzYwNDQ4OCwiZXhwIjoxNzQzNjA4MDg4fQ.FbZuC3KxQl1Fjha7hN418veTLt9L5ZQzV2UHm0YyyfhgErAS0qS8fYbQc9TtbNiv0GBA7rczOdjkHieYLnYS-A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/topic/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"topic",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Topic",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzA3NDk0NSwiZXhwIjoxNzQzMDc4NTQ1fQ.V-bBfH3b-36Y0qIzd54WY1XTZPRA3yg-QMTxMbbIb9J0F1gTHIOG0t_MT4GSIh7yh1hWb__Dj4obhC6Mwx7l8Q",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"FC LowG\",\r\n    \"color\": \"#ff8800\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/topic",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"topic"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update topic existed",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzA3NDk0NSwiZXhwIjoxNzQzMDc4NTQ1fQ.V-bBfH3b-36Y0qIzd54WY1XTZPRA3yg-QMTxMbbIb9J0F1gTHIOG0t_MT4GSIh7yh1hWb__Dj4obhC6Mwx7l8Q",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "en-US",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept-Language",
+								"value": "fr-FR",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept-Language",
+								"value": "vi-VN",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Technology\",\r\n    \"color\": \"#FF0000\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/topic/6b308001-c009-4897-b0fa-bd8f7668adb9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"topic",
+								"6b308001-c009-4897-b0fa-bd8f7668adb9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete topic",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/topic/d72250d2-4316-43d2-a9e6-93ad48d41c94",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"topic",
+								"d72250d2-4316-43d2-a9e6-93ad48d41c94"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PostLikedController",
+			"item": [
+				{
+					"name": "Like post",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MjcyODMzMSwiZXhwIjoxNzQyNzMxOTMxfQ.WFVENjveJkl-wUsTSMpnl-8OvwHpKenQ4ca8SviWfE3bhRQk-sDSifIJJ4hF2t-YvBjwYhTmIWPEjGllod3tYw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "vi-VN",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/api/posts/ec611cf3-f859-4f4a-a881-ad59e26cb365/like",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"posts",
+								"ec611cf3-f859-4f4a-a881-ad59e26cb365",
+								"like"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Unlike Post",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MjcyODMzMSwiZXhwIjoxNzQyNzMxOTMxfQ.WFVENjveJkl-wUsTSMpnl-8OvwHpKenQ4ca8SviWfE3bhRQk-sDSifIJJ4hF2t-YvBjwYhTmIWPEjGllod3tYw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "vi-VN",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/api/posts/ec611cf3-f859-4f4a-a881-ad59e26cb365/unlike",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"posts",
+								"ec611cf3-f859-4f4a-a881-ad59e26cb365",
+								"unlike"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get list users liked",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzYwNDQ4OCwiZXhwIjoxNzQzNjA4MDg4fQ.FbZuC3KxQl1Fjha7hN418veTLt9L5ZQzV2UHm0YyyfhgErAS0qS8fYbQc9TtbNiv0GBA7rczOdjkHieYLnYS-A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/posts/ec611cf3-f859-4f4a-a881-ad59e26cb365/liked-users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"posts",
+								"ec611cf3-f859-4f4a-a881-ad59e26cb365",
+								"liked-users"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PostSavedController",
+			"item": [
+				{
+					"name": "Save post existed",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0Mjk3NjI3NywiZXhwIjoxNzQyOTc5ODc3fQ.fy7KSqeqz7uojGaNOHbRoDbYGKZX6rt4ANGxTylArEYz47YMeXgWimx0DqokXg3FHyp7dnWpQeU3OdSvaaRn9g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"authorId\": \"0a22c812-f19e-4848-8bc7-3fdb69ea5bec\",\r\n    \"postId\": \"64e572b0-e642-43da-942c-ad396362b992\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/posts/save",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"posts",
+								"save"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Unsaved post in list",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MTc2NjAxMywiZXhwIjoxNzQxNzY5NjEzfQ.FMGQr0q0ksyayS9YBRlXTCYK-faZZmjgFttA1s_7JVd05VcQH9bc0fqaONM09kK89MPN4Ixc_tB6XzforglogA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"authorId\": \"0a22c812-f19e-4848-8bc7-3fdb69ea5bec\",\r\n    \"postId\": \"64e572b0-e642-43da-942c-ad396362b992\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/posts/unsaved",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"posts",
+								"unsaved"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get List Post Saved",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzYwNDQ4OCwiZXhwIjoxNzQzNjA4MDg4fQ.FbZuC3KxQl1Fjha7hN418veTLt9L5ZQzV2UHm0YyyfhgErAS0qS8fYbQc9TtbNiv0GBA7rczOdjkHieYLnYS-A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/posts/saved",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"posts",
+								"saved"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CommentController",
+			"item": [
+				{
+					"name": "create comment",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0Mjk4NjkyNSwiZXhwIjoxNzQyOTkwNTI1fQ._govemMd2ulXkOuPxEAgzPRMDqGwBuZOZB0JpV9KsV5FpNzk3Cn43fCYgPHJRe136YBPmGRTKTwNBbYuXKJezg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"postId\": \"64e572b0-e642-43da-942c-ad396362b992\",\r\n    \"content\": \"Test comment pub-sub [delete]\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/comments/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"comments",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update comment",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MTk1ODQyNCwiZXhwIjoxNzQxOTYyMDI0fQ.X7b9cXIkxSu0ZmmD-BdzB6CPFrv0JZ5hqv2l6VmENH4kc2mxqSKawmbfHZ7NjX0m5vsg1BLO4uCxNy_AYtCfRQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"content\": \"Comment 1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/comments/7bf430f8-7586-46ed-94a1-42c3843f299c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"comments",
+								"7bf430f8-7586-46ed-94a1-42c3843f299c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete comment",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJCb2IiLCJpYXQiOjE3NDMwMDA2NDIsImV4cCI6MTc0MzAwNDI0Mn0.39OR5Uhr5s97-QYyXRTjdv1FwAGgYhYWb2Q4bUZfiLYNp5lbw0A0uXbI_khh20LTWMEXlKmDoFehs2rCW0Gmzg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "vi-VN",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/api/comments/c5bce32e-796b-41c7-9c38-878cb1374f26",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"comments",
+								"c5bce32e-796b-41c7-9c38-878cb1374f26"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get comment {user}",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJCb2IiLCJpYXQiOjE3NDI3MjgxNzMsImV4cCI6MTc0MjczMTc3M30.KCEiHZF2HESpFgXydkYuxbitu3_jiuxLDL8qyCOV7uO9zggiebkYdvjAc2BrxsDxtwgKgWJEopr7mU5qT4-JkQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/comments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"comments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get comment in post {user}*",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzYwNDQ4OCwiZXhwIjoxNzQzNjA4MDg4fQ.FbZuC3KxQl1Fjha7hN418veTLt9L5ZQzV2UHm0YyyfhgErAS0qS8fYbQc9TtbNiv0GBA7rczOdjkHieYLnYS-A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/comments/64e572b0-e642-43da-942c-ad396362b992",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"comments",
+								"64e572b0-e642-43da-942c-ad396362b992"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CommentLikedController",
+			"item": [
+				{
+					"name": "like comment",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0Mjk5ODM5NywiZXhwIjoxNzQzMDAxOTk3fQ.b1IuR8wrEJsDZwUB8Z6HAwg_ttRfRzwetTc3rfiYeIySRRhRLW1EiE4u-yzNtLah5BufFcf5DNgba0rWX2GMGQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/comments/c5bce32e-796b-41c7-9c38-878cb1374f26/like",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"comments",
+								"c5bce32e-796b-41c7-9c38-878cb1374f26",
+								"like"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "unlike comment",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0Mjk5ODM5NywiZXhwIjoxNzQzMDAxOTk3fQ.b1IuR8wrEJsDZwUB8Z6HAwg_ttRfRzwetTc3rfiYeIySRRhRLW1EiE4u-yzNtLah5BufFcf5DNgba0rWX2GMGQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/comments/c5bce32e-796b-41c7-9c38-878cb1374f26/unlike",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"comments",
+								"c5bce32e-796b-41c7-9c38-878cb1374f26",
+								"unlike"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get liked-users",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0Mjk5ODMzOSwiZXhwIjoxNzQzMDAxOTM5fQ.UkI2nFIM8AEabnB4OFDjy33uBNk6z_6d3L8bMwkHH24scP2EGZqu0CpM2GRYQPk0z5wYQ17n0ADO7loUy4wpag",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/comments/ba51483a-bff9-43c1-857e-282de923e5bc/liked-users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"comments",
+								"ba51483a-bff9-43c1-857e-282de923e5bc",
+								"liked-users"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "NotificationController",
+			"item": [
+				{
+					"name": "Get all Notifications",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzYwNDQ4OCwiZXhwIjoxNzQzNjA4MDg4fQ.FbZuC3KxQl1Fjha7hN418veTLt9L5ZQzV2UHm0YyyfhgErAS0qS8fYbQc9TtbNiv0GBA7rczOdjkHieYLnYS-A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "vi-VN",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/api/notifications?page=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"notifications"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create {stub}",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJCb2IiLCJpYXQiOjE3NDE4NzQ5MjEsImV4cCI6MTc0MTg3ODUyMX0.Y-u7HrEJn38X-vznRFEl4u4Y8ATmrwO97S6AnZFfGoqBX-1xeatoCWYa_xF9eidvB0Kpi4EAqgiZMIHvH-TXzg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"receiverId\": \"0a22c812-f19e-4848-8bc7-3fdb69ea5bec\",\r\n    \"actorId\": \"dd01ecbe-f798-4fb5-a56a-184c4ba9e023\",    \r\n    \"action\": \"LIKE_POST\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/notifications/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"notifications",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read notification",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MTkyMDc3NywiZXhwIjoxNzQxOTI0Mzc3fQ.VRNDV200g3slPrATLGTy7fnjTuzo2GEJv99ZTkEro55ITkYEuA-b8JIZqscOmFTfTK1NswlJbNx-6Pv8RYFbYg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/notifications/47894717-a7ff-4afd-b84f-b5ef1050bc62/read",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"notifications",
+								"47894717-a7ff-4afd-b84f-b5ef1050bc62",
+								"read"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read all Notification",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzQ3MjkyOSwiZXhwIjoxNzQzNDc2NTI5fQ.UrJFDg7PsolNodOJ7L-X2Nxf2EOjQq6pOxQ6ro0inLwSUVrPh-7hkEJrnBan5YtesEZyifbfHvPbxQ9jqDRr4g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/notifications/read-all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"notifications",
+								"read-all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FollowController",
+			"item": [
+				{
+					"name": "follow",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MjE1MDkyMywiZXhwIjoxNzQyMTU0NTIzfQ.uYMEfC3ixaOTxjn6_iVNzGvFCr879rhDprklVvQDcjcEDnICDLM2YTrCPiXNeX7X1tR7JBjspayTJd75Qn3u9g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/dd01ecbe-f798-4fb5-a56a-184c4ba9e023/follow",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"dd01ecbe-f798-4fb5-a56a-184c4ba9e023",
+								"follow"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "unfollow",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MjE0NDg5MiwiZXhwIjoxNzQyMTQ4NDkyfQ.QYZ30V8zPwWnT8tVp5NJOyIowKayLnj5ppR_8PdkyXmm9Q2EQw010xVMB0oNHwd6bVnSGRx1OUqQMTtCZ93rOQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/dd01ecbe-f798-4fb5-a56a-184c4ba9e023/unfollow",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"dd01ecbe-f798-4fb5-a56a-184c4ba9e023",
+								"unfollow"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get following",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJCb2IiLCJpYXQiOjE3NDIwMjEwNjUsImV4cCI6MTc0MjAyNDY2NX0.cd8JJ9s9JFG38w0Rd8ESlKVhYvPjdBrXkh2PNESEf1TE2IwkTxR6DxxBoKMqE31yQXKjvUgm1biofjCfCknrzg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/0a22c812-f19e-4848-8bc7-3fdb69ea5bec/followings",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"0a22c812-f19e-4848-8bc7-3fdb69ea5bec",
+								"followings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get followers",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MjE0NDg5MiwiZXhwIjoxNzQyMTQ4NDkyfQ.QYZ30V8zPwWnT8tVp5NJOyIowKayLnj5ppR_8PdkyXmm9Q2EQw010xVMB0oNHwd6bVnSGRx1OUqQMTtCZ93rOQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/0a22c812-f19e-4848-8bc7-3fdb69ea5bec/followers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"0a22c812-f19e-4848-8bc7-3fdb69ea5bec",
+								"followers"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FriendController",
+			"item": [
+				{
+					"name": "Get all friends",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzYwNDQ4OCwiZXhwIjoxNzQzNjA4MDg4fQ.FbZuC3KxQl1Fjha7hN418veTLt9L5ZQzV2UHm0YyyfhgErAS0qS8fYbQc9TtbNiv0GBA7rczOdjkHieYLnYS-A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/0a22c812-f19e-4848-8bc7-3fdb69ea5bec/get-friends",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"0a22c812-f19e-4848-8bc7-3fdb69ea5bec",
+								"get-friends"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get friends requests",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzQ3NTc3NywiZXhwIjoxNzQzNDc5Mzc3fQ.YGG1lno-1qJ4Wj8co6YjhiHJ-iNsf8KhvXjFPYpxcIXFzELHkJ_-4UOsO3zo1RoyKZfNaMVsvbUv1GT7s80paw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/0a22c812-f19e-4848-8bc7-3fdb69ea5bec/get-friends-request",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"0a22c812-f19e-4848-8bc7-3fdb69ea5bec",
+								"get-friends-request"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create request",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzQ3OTM5MywiZXhwIjoxNzQzNDgyOTkzfQ.5unZ-OQof23cGR48LIYSojX5xPK5-_FQwqdP-opVv0BivhAOBbH7lLiNCWD-7dKdvcZOXp_-pFdVGyxHk_w-oA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"receiverId\": \"0a22c812-f19e-4848-8bc7-3fdb69ea5bec\",\r\n    \"requesterId\": \"6dbb011a-2beb-4fc4-97c3-666c1bef560d\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/users/create-request",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"create-request"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Accept friend",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJCb2IiLCJpYXQiOjE3NDM0NzY3MDYsImV4cCI6MTc0MzQ4MDMwNn0.Ll-ApDHOk6JnrF5DStuOuBhtLwd37tLrqSU_6hvuPXf0fwe5IjVfL6fzt4eRhw1p_G6Y1NVygkIl-e4rQmYCew",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/3fcc1d7c-81b6-438a-8f98-d0b3ce952bf1/accept-friend",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"3fcc1d7c-81b6-438a-8f98-d0b3ce952bf1",
+								"accept-friend"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remove relationship",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJCb2IiLCJpYXQiOjE3NDM0OTA5NzYsImV4cCI6MTc0MzQ5NDU3Nn0.EhKcP1-8XZRO7XSFuM1HJpsqmgITlgX84TjbR-jS61h-13Q1D6LH4HnoM5J7_VA44n6vlT0sgT-NfId0_H8bpA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/dd01ecbe-f798-4fb5-a56a-184c4ba9e023/delete-friend",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"dd01ecbe-f798-4fb5-a56a-184c4ba9e023",
+								"delete-friend"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "MiniIO",
+			"item": [
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "listObject in bucket",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0Mjg5ODkyNywiZXhwIjoxNzQyOTAyNTI3fQ.3uU5vP9ArgW043aGG6kXe4kfkP34NZpFPgrYS7orhDeAgh0ySlhPcmOxYUGaKZLNT11RQcwXl5twgCx-npqJhw",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/minio/show/commons",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"minio",
+										"show",
+										"commons"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "show all bucketname",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MjU0OTAwNSwiZXhwIjoxNzQyNTUyNjA1fQ.1KBTfX5F77KRH64hmft4nvOrYJa-Tp9VWk_mdBEK-D3sgL0rF95k0PIxOhxEL6molIbfsgg6gNRkFbKXgge__Q",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/minio/showBucketName",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"minio",
+										"showBucketName"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "show ListObjectName And DownloadUrl",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MjY2NTMxMiwiZXhwIjoxNzQyNjY4OTEyfQ.Qr2GKuOgBz5oB7NNt20kXOa0UBBjWU6G_j66Tr7DzOfJsRJtlpUUrwG61UgdTx3vKxaMSnO02j6sGo-PGFrWag",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/minio/showListObjectNameAndDownloadUrl/commons",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"minio",
+										"showListObjectNameAndDownloadUrl",
+										"commons"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get file by bucket and name",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MjY2NTMxMiwiZXhwIjoxNzQyNjY4OTEyfQ.Qr2GKuOgBz5oB7NNt20kXOa0UBBjWU6G_j66Tr7DzOfJsRJtlpUUrwG61UgdTx3vKxaMSnO02j6sGo-PGFrWag",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/minio/download/commons/e04673ff73f144cdaaeb0f1d7398ce13.jpg",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"minio",
+										"download",
+										"commons",
+										"e04673ff73f144cdaaeb0f1d7398ce13.jpg"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Test videos",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MjY2NTMxMiwiZXhwIjoxNzQyNjY4OTEyfQ.Qr2GKuOgBz5oB7NNt20kXOa0UBBjWU6G_j66Tr7DzOfJsRJtlpUUrwG61UgdTx3vKxaMSnO02j6sGo-PGFrWag",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/minio/download/commons/file_example_MP4_640_3MG.mp4",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"minio",
+										"download",
+										"commons",
+										"file_example_MP4_640_3MG.mp4"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Test MinIO",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/minio",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"minio"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "DELETE",
+					"item": [
+						{
+							"name": "delete bucketname",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MjU0OTAwNSwiZXhwIjoxNzQyNTUyNjA1fQ.1KBTfX5F77KRH64hmft4nvOrYJa-Tp9VWk_mdBEK-D3sgL0rF95k0PIxOhxEL6molIbfsgg6gNRkFbKXgge__Q",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/minio/removeBucket/abc",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"minio",
+										"removeBucket",
+										"abc"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "detele obj in bucket",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/minio/removeObject/commons/2ff6e4c4b73246d99ce68a1a127d0de3.jpg",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"minio",
+										"removeObject",
+										"commons",
+										"2ff6e4c4b73246d99ce68a1a127d0de3.jpg"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "remove list object in bucket",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "[\r\n    \"b70bce45712045b0a317cfe7409b42a4.jpg\"\r\n]",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/minio/removeListObject/commons",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"minio",
+										"removeListObject",
+										"commons"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "create bucket",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MjU0Nzc4OCwiZXhwIjoxNzQyNTUxMzg4fQ.o_1bOcNYzplRakX9JtDN4Uqr0gfi2p7HqL-ETiI32H6IK9kibmwFdzzfXPJsPwijEMqWjFHDhhDHdC1OryGoBw",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/minio/addBucket/abc",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"minio",
+										"addBucket",
+										"abc"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "upload file",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzIzOTA3MCwiZXhwIjoxNzQzMjQyNjcwfQ.DfhGyrDqlmUiw8qMSWkTApMr2cKALPOb6LgdsKZjZoWOD3AgKaB1XkK66t_i2Uor-5Si-GiNLxTBmmYX7Z0_4Q",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "bucketName",
+											"value": "commons",
+											"type": "text"
+										},
+										{
+											"key": "file",
+											"type": "file",
+											"src": []
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8080/minio/upload",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"minio",
+										"upload"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "CategoryController",
+			"item": [
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "get all",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDk2NTM1MSwiZXhwIjoxNzQ0OTY4OTUxfQ.lpv0GkTblyw4dzeYYtYewfJ4j9QlkB-8jpitOiWpx5BRrNNeXNBArFX-VZuYc6nbf0DYYzY0IhkI2iEzAxen5A",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/categories/all",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"categories",
+										"all"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get category by id",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzY5MzAzNCwiZXhwIjoxNzQzNjk2NjM0fQ.wP3tvrpdg7WZf0ibawBkqoU0NW9yvclh7ks9kG10rCR-rB5uB1RvP0L-h6u4DXqL0mwm_kLHRVyKN7CPWysqTw",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/categories/eca144fc-8b60-4f0e-a9f6-430edd933d1f",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"categories",
+										"eca144fc-8b60-4f0e-a9f6-430edd933d1f"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "create new",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDQyNTI3OSwiZXhwIjoxNzQ0NDI4ODc5fQ.qgpjy-uR5F6MUr6Qs6VsGnruDjOFKHJ3Wc8YfcBc4u5d3BilqbfBa8yKU6HYSdSBuJ2H9o2FRQXq57Etki87Pg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "vi-VN",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"Home & Kitchen\",\r\n  \"description\": \"Furniture, appliances, kitchenware, and home decor essentials.\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/categories/create",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"categories",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "PUT",
+					"item": [
+						{
+							"name": "update cate",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzY5MzAzNCwiZXhwIjoxNzQzNjk2NjM0fQ.wP3tvrpdg7WZf0ibawBkqoU0NW9yvclh7ks9kG10rCR-rB5uB1RvP0L-h6u4DXqL0mwm_kLHRVyKN7CPWysqTw",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Electronics\",\r\n    \"description\": \"Latest gadgets, devices, and consumer electronics including smartphones, laptops, and accessories.\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/categories/eca144fc-8b60-4f0e-a9f6-430edd933d1f/update",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"categories",
+										"eca144fc-8b60-4f0e-a9f6-430edd933d1f",
+										"update"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "DELETE",
+					"item": [
+						{
+							"name": "delete cate",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzY5MzAzNCwiZXhwIjoxNzQzNjk2NjM0fQ.wP3tvrpdg7WZf0ibawBkqoU0NW9yvclh7ks9kG10rCR-rB5uB1RvP0L-h6u4DXqL0mwm_kLHRVyKN7CPWysqTw",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/categories/1a064e2f-bca6-4f46-9a5d-9ff84ece64fa/delete",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"categories",
+										"1a064e2f-bca6-4f46-9a5d-9ff84ece64fa",
+										"delete"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "ProductController",
+			"item": [
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "get by Id",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzczNjk2MiwiZXhwIjoxNzQzNzQwNTYyfQ.WAkEt-SELJD1W_zG5dN0Bnon3NVDDDk41mKOHeB5urFObQFZK8D4EeOQV5srPT3eYsyx9hV4CVhNTC-bYjlJ0w",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/products/cfe7108a-fa32-4e3c-b4bf-3279578fe503",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"products",
+										"cfe7108a-fa32-4e3c-b4bf-3279578fe503"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get all products",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NTAwNDgxMSwiZXhwIjoxNzQ1MDA4NDExfQ.tkxqIaM3owBG_d_KzeC6D2D97fLFrSkBDdO_3cZ0aU3iUq8DC6SBpDtQHrmkOA2IBcg35XiKCtq6HVItRDyerg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/products/all?page=1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"products",
+										"all"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "size",
+											"value": "10",
+											"disabled": true
+										},
+										{
+											"key": "category",
+											"value": "Electronics",
+											"disabled": true
+										},
+										{
+											"key": "search",
+											"value": "Iphone",
+											"disabled": true
+										},
+										{
+											"key": "rating",
+											"value": "5",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "create",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDQyNTI3OSwiZXhwIjoxNzQ0NDI4ODc5fQ.qgpjy-uR5F6MUr6Qs6VsGnruDjOFKHJ3Wc8YfcBc4u5d3BilqbfBa8yKU6HYSdSBuJ2H9o2FRQXq57Etki87Pg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "Quần Kaki Slim Fit",
+											"type": "text"
+										},
+										{
+											"key": "description",
+											"value": "Quần kaki co giãn, dáng ôm, phù hợp mặc đi chơi hoặc đi làm.",
+											"type": "text"
+										},
+										{
+											"key": "price",
+											"value": "950000",
+											"type": "text"
+										},
+										{
+											"key": "weight",
+											"value": "800",
+											"type": "text"
+										},
+										{
+											"key": "width",
+											"value": "4",
+											"type": "text"
+										},
+										{
+											"key": "height",
+											"value": "100",
+											"type": "text"
+										},
+										{
+											"key": "length",
+											"value": "35",
+											"type": "text"
+										},
+										{
+											"key": "categoryId",
+											"value": "939d5dcc-faad-4263-b761-ac63e3cccf6b",
+											"type": "text"
+										},
+										{
+											"key": "stockQuantity",
+											"value": "85",
+											"type": "text"
+										},
+										{
+											"key": "images",
+											"type": "file",
+											"src": "/C:/Users/ADMIN/Desktop/product/Classic Denim Jacket/130771_612785_409141.jpg"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/products/create",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"products",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "PUT",
+					"item": [
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzczNjk2MiwiZXhwIjoxNzQzNzQwNTYyfQ.WAkEt-SELJD1W_zG5dN0Bnon3NVDDDk41mKOHeB5urFObQFZK8D4EeOQV5srPT3eYsyx9hV4CVhNTC-bYjlJ0w",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"Laptop Dell XPS 13\",\r\n  \"description\": \"Laptop cao cấp với màn hình 13 inch, CPU Intel i7, RAM 16GB, SSD 512GB.\",\r\n  \"price\": 35999000,\r\n  \"weight\": 1.2,\r\n  \"width\": 30.2,\r\n  \"height\": 1.5,\r\n  \"length\": 19.8,\r\n  \"categoryId\": \"81b23d77-8618-4b87-8fbf-9a322d7e0623\",\r\n  \"stockQuantity\": 15\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/products/cfe7108a-fa32-4e3c-b4bf-3279578fe503/update",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"products",
+										"cfe7108a-fa32-4e3c-b4bf-3279578fe503",
+										"update"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "DELETE",
+					"item": [
+						{
+							"name": "delete",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDIwMjI1NSwiZXhwIjoxNzQ0MjA1ODU1fQ.1O4G7BOjVInYL94NeoWsz4bdMZvE3_94cESj83f1-kgk3qq_yHPpj9slcCh10-tETvKZtcQrBjydPk_y36eKgg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/products/76de5f88-130c-4e00-844d-4f2ecf639beb/delete",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"products",
+										"76de5f88-130c-4e00-844d-4f2ecf639beb",
+										"delete"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "OrderController",
+			"item": [
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "create order",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDc4NzYxNywiZXhwIjoxNzQ0NzkxMjE3fQ.s94inbdcm8num1bkdtqtwcA6I_ZL_h1aBpxTyLvB6UKgjY06Sn-STIUWqeDmkZ2odD_gxXXd9QecEhy-dmGjUg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"customerId\": \"0a22c812-f19e-4848-8bc7-3fdb69ea5bec\",\r\n  \"items\": [\r\n    {\r\n      \"productId\": \"585d5ca6-7051-4c67-b269-7480c0612fdd\",\r\n      \"price\": 950000,\r\n      \"quantity\": 1\r\n    }    \r\n  ],\r\n  \"shippingInfo\": {\r\n    \"receiverName\": \"John Doe\",\r\n    \"receiverPhone\": \"0364484261\",\r\n    \"address\": \"484 Lê Văn Việt, Tăng Nhơn Phú A, Thủ Đức\",\r\n    \"wardCode\": \"90735\",\r\n    \"districtId\": 3695,\r\n    \"shippingFee\": 0\r\n  },\r\n  \"payment\": {\r\n    \"method\": \"VNPAY\",\r\n    \"amountPaid\": 19990\r\n  }\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/orders/create",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"orders",
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "get all",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDkwODYwNywiZXhwIjoxNzQ0OTEyMjA3fQ.-xufLioS95q8zo0ZboqUtGI4aEz1-Z9rf9QoiFi4karQXUmcRTibUOmlRb65-LGfY_YH0rqN-nPh435bz3RDGw",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/orders/all?customerId=0a22c812-f19e-4848-8bc7-3fdb69ea5bec",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"orders",
+										"all"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1",
+											"disabled": true
+										},
+										{
+											"key": "size",
+											"value": "1",
+											"disabled": true
+										},
+										{
+											"key": "customerId",
+											"value": "0a22c812-f19e-4848-8bc7-3fdb69ea5bec"
+										},
+										{
+											"key": "status",
+											"value": "PENDING",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "LineItemsController",
+			"item": [
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "get lineItem from order",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzgyMTc1MSwiZXhwIjoxNzQzODI1MzUxfQ.utYu7el2vch43QToNW-v6R2XpvHz2knuoJp3VvwLosvo4v27eFjvFETSVh6KgmK1ZrnGUfiBgpfOJ5ZyEQ99zg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/line-items/0c47eb22-414f-4daf-ba23-2ea540e00e9f/items",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"line-items",
+										"0c47eb22-414f-4daf-ba23-2ea540e00e9f",
+										"items"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "new lineItems",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzgzMjU2MCwiZXhwIjoxNzQzODM2MTYwfQ.bRZVmgtQVKtrt_dw75bMKeHPJ8rgF5T2iB2QgB17JkLIJDQP6ECutnefdaI6sDZDXjDJS8C-hCJ5FwAhqVpn_Q",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "[\r\n  {\r\n    \"productId\": \"3b210b88-d3d8-419e-a0b3-05f904829824\",\r\n    \"price\": 34999000,\r\n    \"quantity\": 1\r\n  }\r\n]\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/line-items/4be76254-ef16-402e-b7f5-8f115855d3f0/items",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"line-items",
+										"4be76254-ef16-402e-b7f5-8f115855d3f0",
+										"items"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "DELETE",
+					"item": [
+						{
+							"name": "delete",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0MzgzMjU2MCwiZXhwIjoxNzQzODM2MTYwfQ.bRZVmgtQVKtrt_dw75bMKeHPJ8rgF5T2iB2QgB17JkLIJDQP6ECutnefdaI6sDZDXjDJS8C-hCJ5FwAhqVpn_Q",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/line-items/4be76254-ef16-402e-b7f5-8f115855d3f0/items/b6c680b3-ac83-463a-995f-dc281b2e45c2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"line-items",
+										"4be76254-ef16-402e-b7f5-8f115855d3f0",
+										"items",
+										"b6c680b3-ac83-463a-995f-dc281b2e45c2"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "ProductLikedController",
+			"item": [
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "like",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDI5ODg3MCwiZXhwIjoxNzQ0MzAyNDcwfQ.T8aglgku3wU84M1XzGzuphAQdr_8rgNW5oVQAzkxLPY7mTN8uDXFJ5jWcsyJNiOBNdCxCwwGRQqN19C7IEG9Pw",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productId\": \"78f62f3c-0f34-49be-8353-60502966b56c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/products/like",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"products",
+										"like"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "unlike",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDI5ODg3MCwiZXhwIjoxNzQ0MzAyNDcwfQ.T8aglgku3wU84M1XzGzuphAQdr_8rgNW5oVQAzkxLPY7mTN8uDXFJ5jWcsyJNiOBNdCxCwwGRQqN19C7IEG9Pw",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productId\": \"78f62f3c-0f34-49be-8353-60502966b56c\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/products/unlike",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"products",
+										"unlike"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "get all product that liked",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDkxMzAxOSwiZXhwIjoxNzQ0OTE2NjE5fQ.xkpO_svRwo-4VoyNciXJwpkztr03FCuOvlH4mbUD-tsFhz3F-xzQKridsZhty_fztWpk2DYW04-XsPkTjv0wOA",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/products/liked?page=1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"products",
+										"liked"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "ProductCommentController",
+			"item": [
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "comment",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDM1MzIxNSwiZXhwIjoxNzQ0MzU2ODE1fQ.s4a898YGxrCcetkmFcji3oTX73_t2m8NeCAntwJgKFd75M8LxuWMDzCnCy97gWAowaIcARGt3gRDm5ERPDkxCQ",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"productId\": \"78f62f3c-0f34-49be-8353-60502966b56c\",\r\n  \"author\": \"John Doe AVG\",\r\n  \"comment\": \"Great product! Really satisfied with the quality.\",\r\n  \"rating\": 5\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/products/comment",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"products",
+										"comment"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "get all comments",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDM1NjkxMywiZXhwIjoxNzQ0MzYwNTEzfQ.J4jICSgp_yYoe6XFzhW2byuQZHxP-KCsGCI_zipM4E1kxc-6tH67-rqzy3k75MzfgXakUnaY144jIfAOeezvIA",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/products/comment/:id?page=1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"products",
+										"comment",
+										":id"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "78f62f3c-0f34-49be-8353-60502966b56c"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "CartController",
+			"item": [
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "get cart",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDkwMDQxNCwiZXhwIjoxNzQ0OTA0MDE0fQ.Bd5-TyFUkcRFRQQ78dIDvSsrtiRvO5gqjTRsrn3BMaKRE6vL_q5k5UN2Rly0ZRsOdvTUHmbtpFu-UfEtzioLiw",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/cart/0a22c812-f19e-4848-8bc7-3fdb69ea5bec",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"cart",
+										"0a22c812-f19e-4848-8bc7-3fdb69ea5bec"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "add items",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDczMDYxNSwiZXhwIjoxNzQ0NzM0MjE1fQ.7LY05sJSuzT7D1jS1UzQ9vLo3HL6T-HgxI6rAYBOPOnxc-aOlag0FqiQ1lyVKaNf0unmRVHQYcnMRSSPE8dgww",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"productId\": \"78f62f3c-0f34-49be-8353-60502966b56c\",\r\n  \"price\": 34999000.00,\r\n  \"quantity\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/cart/0a22c812-f19e-4848-8bc7-3fdb69ea5bec/add",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"cart",
+										"0a22c812-f19e-4848-8bc7-3fdb69ea5bec",
+										"add"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "DELETE",
+					"item": [
+						{
+							"name": "clear cart",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDg3OTUyMSwiZXhwIjoxNzQ0ODgzMTIxfQ.H_NpI5g-aez8Sv29JDZpuavn1-3M_uI_BaSRagSKex5eET6LWFIqPYBQQDSHoQeXr2GzUJQJyVRXVBb5oSQOQg",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/cart/0a22c812-f19e-4848-8bc7-3fdb69ea5bec/clear",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"cart",
+										"0a22c812-f19e-4848-8bc7-3fdb69ea5bec",
+										"clear"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "AddressController",
+			"item": [
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "get all",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDc4MTc3MiwiZXhwIjoxNzQ0Nzg1MzcyfQ.PqmQ6t_CQRn5rSMzLvDEuv_mhF7GC95H4HTx9q8MxGdTbjJw8lShY5-tG7RLPXMl6tykxmY19dTMkBA5yP71_Q",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/address/all",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"address",
+										"all"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "create",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDY4OTg3MSwiZXhwIjoxNzQ0NjkzNDcxfQ.pR6zeaq5A8o7eklIxEsVq0ou9lGpzQz7bKPhlauTpupa-qoZtHDYb59waADbvttLo59hB1xH9ggonP_pakjhGQ",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{  \r\n  \"userId\": \"0a22c812-f19e-4848-8bc7-3fdb69ea5bec\",\r\n  \"phone\": \"0364484261\",\r\n  \"address\": \"1 Võ Văn Ngân, Thủ Đức, TP Hồ Chí Minh\",\r\n  \"wardCode\": \"90768\",\r\n  \"wardName\": \"Phường An Khánh\",\r\n  \"districtId\": 3695,\r\n  \"districtName\": \"Thành Phố Thủ Đức\",\r\n  \"provinceId\": 202,\r\n  \"provinceName\": \"Hồ Chí Minh\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/address/create",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"address",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "set default",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDY5ODgyNSwiZXhwIjoxNzQ0NzAyNDI1fQ.hCXSEeYyRnZwubIz3YZQe2XM9xZNTTSJJ1QSMGsSgcX9qJwtbZuVa2RaqJyp1Wt7hfZwbEMfgBJgu8jKh3rz4w",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/address/set-default/:id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"address",
+										"set-default",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "6ebfbe30-cc4f-4ca7-85da-b6dd3febd032"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "PUT",
+					"item": [
+						{
+							"name": "update info",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDYzOTI0NSwiZXhwIjoxNzQ0NjQyODQ1fQ.bTGfYzk14a5immVEOqdT562lbWxBL-t8adkiJXAbdY4aqYXGeZD5XtcvPvuIPzd9-uLzv7IhmSLOlYQBWc5Pxw",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{  \r\n  \"userId\": \"0a22c812-f19e-4848-8bc7-3fdb69ea5bec\",\r\n  \"phone\": \"0364484261\",\r\n  \"address\": \"1 Phường An Khánh, Thủ Đức, TP Hồ Chí Minh\",\r\n  \"wardCode\": \"90768\",\r\n  \"wardName\": \"Phường An Khánh\",\r\n  \"districtId\": 3695,\r\n  \"districtName\": \"Thành Phố Thủ Đức\",\r\n  \"provinceId\": 202,\r\n  \"provinceName\": \"Hồ Chí Minh\",\r\n  \"isDefault\": true\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/address/update/:id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"address",
+										"update",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "f140f6a5-c396-4121-8f1e-aa25ffe78fdf"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "DELETE",
+					"item": [
+						{
+							"name": "delete address belong to user",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbGljZSIsImlhdCI6MTc0NDY4OTg3MSwiZXhwIjoxNzQ0NjkzNDcxfQ.pR6zeaq5A8o7eklIxEsVq0ou9lGpzQz7bKPhlauTpupa-qoZtHDYb59waADbvttLo59hB1xH9ggonP_pakjhGQ",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/address/delete/:id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"address",
+										"delete",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "c8f1356e-d511-41fb-9e2b-5a78e155d32e"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

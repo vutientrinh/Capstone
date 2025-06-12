@@ -1,0 +1,9 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <!-- Import xml file to migrate code here-->
+    <include file="classpath:db/changelog/liquibase-replica-images.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:db/changelog/liquibase-replica-product-images.xml" relativeToChangelogFile="false"/>
+</databaseChangeLog>
