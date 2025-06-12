@@ -1,0 +1,163 @@
+.create-post-container {
+  width: 100%;
+  min-width: 600px;
+  background-color: var(--background);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 1px solid var(--background);
+}
+
+.header-card {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid var(--background);
+  position: relative;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  flex-grow: 1;
+  text-align: center;
+  margin-right: 40px;
+  color: var(--foreground);
+}
+
+.post-content {
+  padding: 16px;
+  min-height: 200px;
+  border-bottom: 1px solid var(--background);
+}
+
+.post-textarea {
+  width: 100%;
+  min-height: 150px;
+  border: none;
+  resize: none;
+  font-size: 18px;
+  outline: none;
+  color: var(--foreground);
+}
+
+.post-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #65676b;
+}
+
+.emoji-button {
+  margin-left: auto;
+}
+
+.attachments {
+  padding: 10px 16px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.attachment {
+  width: 100px;
+  height: 60px;
+  background-color: #f0f2f5;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.attachment-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.remove-attachment {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e4e6eb;
+  cursor: pointer;
+  color: #65676b;
+}
+
+.post-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-top: 1px solid #e4e6eb;
+}
+
+.privacy-section {
+  display: flex;
+  align-items: center;
+}
+
+.privacy-label {
+  margin-right: 10px;
+  color: var(--foreground);
+  font-weight: 500;
+}
+
+.privacy-dropdown {
+  padding: 8px 12px;
+  border: 1px solid #e4e6eb;
+  border-radius: 6px;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.cancel-button {
+  padding: 8px 16px;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--foreground);
+}
+
+.publish-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--background-component);
+  color: var(--foreground);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.publish-button:hover {
+  background-color: var(--button-hover);
+}

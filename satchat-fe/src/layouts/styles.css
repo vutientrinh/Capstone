@@ -1,0 +1,32 @@
+.left-sidebar {
+  width: 100%;
+  background-color: var(--background-component);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  cursor: pointer;
+  transition: var(--background-component) 0.3s ease;
+  border-radius: 8px;
+}
+
+.menu-item:hover {
+  background-color: rgba(200, 200, 200, 0.15);
+}
+
+.menu-item.active {
+  background-color: rgba(200, 200, 200, 0.15);
+}
+
+.post-avatar {
+  width: 40px;
+  height: 40px;
+  /* background-color: #ccc; */
+  border-radius: 50%;
+  margin-right: 10px;
+}

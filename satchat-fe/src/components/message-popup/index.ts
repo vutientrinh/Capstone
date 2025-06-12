@@ -1,0 +1,1 @@
+export { default as MessagePopup } from "./message-popup";
