@@ -1,0 +1,15 @@
+const String logInScreenRoute = "login";
+const String registerScreenRoute = "register";
+const String homeScreenRoute = "home";
+const String profileScreenRoute = "profile";
+const String chatScreenRoute = "chat";
+const String notificationsScreenRoute = "notifications";
+const String ecommerceScreenRoute = "ecommerce";
+const String productDetailsScreenRoute = "product_details";
+const String cartScreenRoute = "cart";
+const String createPostScreenRoute = "create_post";
+const String chatDetailScreenRoute = "chat_detail";
+const String suggestionScreenRoute = "suggestion_user";
+const String friendScreenRoute = "friend_list";
+const String userProfileScreenRoute = "user_profile";
+const String updateProfileScreenRoute = "update_profile";

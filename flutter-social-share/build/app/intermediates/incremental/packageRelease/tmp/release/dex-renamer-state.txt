@@ -1,0 +1,4 @@
+#Tue Jun 03 07:39:32 ICT 2025
+base.0=C\:\\WorkSpace\\Code\\flutter-social-app_share\\flutter-social-app_share\\flutter-social-share\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

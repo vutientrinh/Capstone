@@ -1,0 +1,447 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:1:1-49:12
+MERGED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-34:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\permission_handler_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\sqflite_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\vutie\.gradle\caches\transforms-3\bdd091bdc1077170bbc25ed0d986c5aa\transformed\preference-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\vutie\.gradle\caches\transforms-3\5286e249827b6584ae6d6ccdd94f56a3\transformed\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] C:\Users\vutie\.gradle\caches\transforms-3\cd11346a88ffb684c5a91c3146dbf712\transformed\jetified-fragment-ktx-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\vutie\.gradle\caches\transforms-3\8192444e49c8f82c554fc45a78f09d60\transformed\fragment-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\vutie\.gradle\caches\transforms-3\816435b28a17cc9054e3c55bc279f909\transformed\jetified-activity-ktx-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\vutie\.gradle\caches\transforms-3\3378b7a4e6323ba907e68f57d2a6dbfe\transformed\jetified-activity-1.9.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\vutie\.gradle\caches\transforms-3\973ce39c801ccceff3d3d2a724c67e18\transformed\browser-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\9bf013c02b31dd5e86c135e101faa319\transformed\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\c2dd5d24244c13cdac9c75da32cb652f\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\51fe0a4a35d19853febee2158de530ff\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\7a73b236f1c3c486738d1dac7527b32a\transformed\jetified-window-1.2.0\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\fc3de6f6babe91ac0a5e7d68572c7ea6\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\682cc469cec1a13e71af9671813d1fcd\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\8f2e1660a1d60cb83bd85a6812cf144c\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\b94ac7b26f9efe78f679895f5634c2ec\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\2456ead09bab0627dc8cd598c35d996c\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\b48e363d45eb7194cbea13ed43b005ec\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\e5d119669a928389e0a31062c798e2f2\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\96dde5eaf7da84fffa121a6b6338729e\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\b26decb2825aed299b4d6d3575127214\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\297b8491bce555303a4588b3a049053b\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\acf153b7915ea5f6a0a4af4af0a5c4e2\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\9d3a3d742b33098f8d736f85601590e1\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\vutie\.gradle\caches\transforms-3\7c0e1e98ceea49294fca7304ba9ff8c2\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\vutie\.gradle\caches\transforms-3\b2528410d702cf00d1c0c806e26b5b41\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\8efea9d51bf34a20f98154c891100787\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\53da71dd9ab682733483d435c4ce431c\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\vutie\.gradle\caches\transforms-3\142d8b73b9f67bcf140b2e00f8a806dd\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\37b062db0391390c55952a0e1ddf810b\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\693a64db28ddaa5eff5ee9a700c0ba2b\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\vutie\.gradle\caches\transforms-3\45b88f6309e600ab4ef96ab19d80d844\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\vutie\.gradle\caches\transforms-3\cbb7bfffe4c978e00fa6a1b7a3784449\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vutie\.gradle\caches\transforms-3\a3ec3fae421fa617f7e26b2945585cd8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vutie\.gradle\caches\transforms-3\c4c9b5d3498270548f2ef7b986964e6d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\9f753c7b3712e1ba404c3127895ae645\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\8a2b13658706fc4cf26f25556fc29390\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\f54fcf07355d3df5632626c3443a6e41\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\vutie\.gradle\caches\transforms-3\9a2ab4e4b7248f6eb633bcf391ffc356\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vutie\.gradle\caches\transforms-3\f6356104dd0a96e335b9f1d05cf1d55e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\4c0328f555b19e4fda4b8e12491c2684\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\5baf6b9e612dd023ec9099fcb1109c2a\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vutie\.gradle\caches\transforms-3\1a221a2f01937e4353cd6c922cb6d11e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.3] C:\Users\vutie\.gradle\caches\transforms-3\89aeb303b0530291ecd029ee4c9fc7b7\transformed\jetified-datastore-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] C:\Users\vutie\.gradle\caches\transforms-3\394af034569584ace6922d0b3a448717\transformed\jetified-datastore-preferences-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-android:1.1.3] C:\Users\vutie\.gradle\caches\transforms-3\a235c7c3b978df535c118fa4157b5257\transformed\jetified-datastore-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\vutie\.gradle\caches\transforms-3\ef9ea1383954f1c18da1a1354e7730e3\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\353d42e03246e6cf98b4c5ca7fc32119\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\d4f59764d42275c1417fe70ca95cae7b\transformed\jetified-core-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\972bed4953a1727678956ad2203280dc\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\d9bb7ad45545e31d80d60892b9a18ad0\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\ec22ef6589899ea4bd7b547d03a2745a\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\vutie\.gradle\caches\transforms-3\5e7bc0c6306940d0e373c638bd72b5be\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\vutie\.gradle\caches\transforms-3\7009e7ec680df98e825f5bfd8f12c038\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:2:1-7:12
+	package
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:2:5-47
+		INJECTED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:5:5-107
+	android:maxSdkVersion
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:5:78-104
+	android:name
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:5:22-77
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:6:22-73
+uses-permission#android.permission.INTERNET
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:7:22-64
+queries
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:10:5-16:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:11:9-15:18
+action#android.intent.action.VIEW
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:12:13-65
+	android:name
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:12:21-62
+category#android.intent.category.BROWSABLE
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:13:13-74
+	android:name
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:13:23-71
+data
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:14:13-44
+	android:scheme
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:14:19-41
+application
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:18:5-48:19
+INJECTED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:18:5-48:19
+MERGED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-32:19
+MERGED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-32:19
+MERGED from [:url_launcher_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.window:window:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\7a73b236f1c3c486738d1dac7527b32a\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\7a73b236f1c3c486738d1dac7527b32a\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\9d3a3d742b33098f8d736f85601590e1\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\9d3a3d742b33098f8d736f85601590e1\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\f54fcf07355d3df5632626c3443a6e41\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\f54fcf07355d3df5632626c3443a6e41\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vutie\.gradle\caches\transforms-3\f6356104dd0a96e335b9f1d05cf1d55e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vutie\.gradle\caches\transforms-3\f6356104dd0a96e335b9f1d05cf1d55e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vutie\.gradle\caches\transforms-3\1a221a2f01937e4353cd6c922cb6d11e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vutie\.gradle\caches\transforms-3\1a221a2f01937e4353cd6c922cb6d11e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\f54fcf07355d3df5632626c3443a6e41\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:20:9-45
+	android:icon
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:19:9-43
+activity#com.example.flutter_social_share.MainActivity
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:22:9-43:20
+	android:launchMode
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:25:13-43
+	android:hardwareAccelerated
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:28:13-47
+	android:windowSoftInputMode
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:29:13-55
+	android:exported
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:24:13-36
+	android:configChanges
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:27:13-163
+	android:theme
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:26:13-47
+	android:name
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:23:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:31:13-33:57
+	android:resource
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:33:17-54
+	android:name
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:32:17-72
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:34:13-36:66
+	android:resource
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:36:17-63
+	android:name
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:35:17-81
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:38:13-41:29
+action#android.intent.action.MAIN
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:40:27-74
+meta-data#flutterEmbedding
+ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:45:9-47:33
+	android:value
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:47:13-30
+	android:name
+		ADDED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml:46:13-44
+uses-sdk
+INJECTED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml
+MERGED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-44
+MERGED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\permission_handler_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\permission_handler_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\sqflite_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\sqflite_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\vutie\.gradle\caches\transforms-3\bdd091bdc1077170bbc25ed0d986c5aa\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\vutie\.gradle\caches\transforms-3\bdd091bdc1077170bbc25ed0d986c5aa\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\vutie\.gradle\caches\transforms-3\5286e249827b6584ae6d6ccdd94f56a3\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\vutie\.gradle\caches\transforms-3\5286e249827b6584ae6d6ccdd94f56a3\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] C:\Users\vutie\.gradle\caches\transforms-3\cd11346a88ffb684c5a91c3146dbf712\transformed\jetified-fragment-ktx-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] C:\Users\vutie\.gradle\caches\transforms-3\cd11346a88ffb684c5a91c3146dbf712\transformed\jetified-fragment-ktx-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\vutie\.gradle\caches\transforms-3\8192444e49c8f82c554fc45a78f09d60\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\vutie\.gradle\caches\transforms-3\8192444e49c8f82c554fc45a78f09d60\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\vutie\.gradle\caches\transforms-3\816435b28a17cc9054e3c55bc279f909\transformed\jetified-activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\vutie\.gradle\caches\transforms-3\816435b28a17cc9054e3c55bc279f909\transformed\jetified-activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\vutie\.gradle\caches\transforms-3\3378b7a4e6323ba907e68f57d2a6dbfe\transformed\jetified-activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\vutie\.gradle\caches\transforms-3\3378b7a4e6323ba907e68f57d2a6dbfe\transformed\jetified-activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\vutie\.gradle\caches\transforms-3\973ce39c801ccceff3d3d2a724c67e18\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\vutie\.gradle\caches\transforms-3\973ce39c801ccceff3d3d2a724c67e18\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\9bf013c02b31dd5e86c135e101faa319\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\9bf013c02b31dd5e86c135e101faa319\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\c2dd5d24244c13cdac9c75da32cb652f\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\c2dd5d24244c13cdac9c75da32cb652f\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\51fe0a4a35d19853febee2158de530ff\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\51fe0a4a35d19853febee2158de530ff\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\7a73b236f1c3c486738d1dac7527b32a\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\7a73b236f1c3c486738d1dac7527b32a\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\fc3de6f6babe91ac0a5e7d68572c7ea6\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\fc3de6f6babe91ac0a5e7d68572c7ea6\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\682cc469cec1a13e71af9671813d1fcd\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\682cc469cec1a13e71af9671813d1fcd\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\8f2e1660a1d60cb83bd85a6812cf144c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\8f2e1660a1d60cb83bd85a6812cf144c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\b94ac7b26f9efe78f679895f5634c2ec\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\b94ac7b26f9efe78f679895f5634c2ec\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\2456ead09bab0627dc8cd598c35d996c\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\2456ead09bab0627dc8cd598c35d996c\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\b48e363d45eb7194cbea13ed43b005ec\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\b48e363d45eb7194cbea13ed43b005ec\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\e5d119669a928389e0a31062c798e2f2\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\e5d119669a928389e0a31062c798e2f2\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\96dde5eaf7da84fffa121a6b6338729e\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\96dde5eaf7da84fffa121a6b6338729e\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\b26decb2825aed299b4d6d3575127214\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\b26decb2825aed299b4d6d3575127214\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\297b8491bce555303a4588b3a049053b\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\297b8491bce555303a4588b3a049053b\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\acf153b7915ea5f6a0a4af4af0a5c4e2\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\acf153b7915ea5f6a0a4af4af0a5c4e2\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\9d3a3d742b33098f8d736f85601590e1\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\9d3a3d742b33098f8d736f85601590e1\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\vutie\.gradle\caches\transforms-3\7c0e1e98ceea49294fca7304ba9ff8c2\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\vutie\.gradle\caches\transforms-3\7c0e1e98ceea49294fca7304ba9ff8c2\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\vutie\.gradle\caches\transforms-3\b2528410d702cf00d1c0c806e26b5b41\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\vutie\.gradle\caches\transforms-3\b2528410d702cf00d1c0c806e26b5b41\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\8efea9d51bf34a20f98154c891100787\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\8efea9d51bf34a20f98154c891100787\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\53da71dd9ab682733483d435c4ce431c\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\53da71dd9ab682733483d435c4ce431c\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\vutie\.gradle\caches\transforms-3\142d8b73b9f67bcf140b2e00f8a806dd\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\vutie\.gradle\caches\transforms-3\142d8b73b9f67bcf140b2e00f8a806dd\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\37b062db0391390c55952a0e1ddf810b\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\37b062db0391390c55952a0e1ddf810b\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\693a64db28ddaa5eff5ee9a700c0ba2b\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\693a64db28ddaa5eff5ee9a700c0ba2b\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\vutie\.gradle\caches\transforms-3\45b88f6309e600ab4ef96ab19d80d844\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\vutie\.gradle\caches\transforms-3\45b88f6309e600ab4ef96ab19d80d844\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\vutie\.gradle\caches\transforms-3\cbb7bfffe4c978e00fa6a1b7a3784449\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\vutie\.gradle\caches\transforms-3\cbb7bfffe4c978e00fa6a1b7a3784449\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vutie\.gradle\caches\transforms-3\a3ec3fae421fa617f7e26b2945585cd8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vutie\.gradle\caches\transforms-3\a3ec3fae421fa617f7e26b2945585cd8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vutie\.gradle\caches\transforms-3\c4c9b5d3498270548f2ef7b986964e6d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vutie\.gradle\caches\transforms-3\c4c9b5d3498270548f2ef7b986964e6d\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\9f753c7b3712e1ba404c3127895ae645\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\9f753c7b3712e1ba404c3127895ae645\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\8a2b13658706fc4cf26f25556fc29390\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\8a2b13658706fc4cf26f25556fc29390\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\f54fcf07355d3df5632626c3443a6e41\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\f54fcf07355d3df5632626c3443a6e41\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\vutie\.gradle\caches\transforms-3\9a2ab4e4b7248f6eb633bcf391ffc356\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\vutie\.gradle\caches\transforms-3\9a2ab4e4b7248f6eb633bcf391ffc356\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vutie\.gradle\caches\transforms-3\f6356104dd0a96e335b9f1d05cf1d55e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vutie\.gradle\caches\transforms-3\f6356104dd0a96e335b9f1d05cf1d55e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\4c0328f555b19e4fda4b8e12491c2684\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\4c0328f555b19e4fda4b8e12491c2684\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\5baf6b9e612dd023ec9099fcb1109c2a\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\5baf6b9e612dd023ec9099fcb1109c2a\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vutie\.gradle\caches\transforms-3\1a221a2f01937e4353cd6c922cb6d11e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vutie\.gradle\caches\transforms-3\1a221a2f01937e4353cd6c922cb6d11e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-core-android:1.1.3] C:\Users\vutie\.gradle\caches\transforms-3\89aeb303b0530291ecd029ee4c9fc7b7\transformed\jetified-datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.3] C:\Users\vutie\.gradle\caches\transforms-3\89aeb303b0530291ecd029ee4c9fc7b7\transformed\jetified-datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] C:\Users\vutie\.gradle\caches\transforms-3\394af034569584ace6922d0b3a448717\transformed\jetified-datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] C:\Users\vutie\.gradle\caches\transforms-3\394af034569584ace6922d0b3a448717\transformed\jetified-datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.3] C:\Users\vutie\.gradle\caches\transforms-3\a235c7c3b978df535c118fa4157b5257\transformed\jetified-datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.3] C:\Users\vutie\.gradle\caches\transforms-3\a235c7c3b978df535c118fa4157b5257\transformed\jetified-datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\vutie\.gradle\caches\transforms-3\ef9ea1383954f1c18da1a1354e7730e3\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\vutie\.gradle\caches\transforms-3\ef9ea1383954f1c18da1a1354e7730e3\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\353d42e03246e6cf98b4c5ca7fc32119\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\353d42e03246e6cf98b4c5ca7fc32119\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\d4f59764d42275c1417fe70ca95cae7b\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\d4f59764d42275c1417fe70ca95cae7b\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\972bed4953a1727678956ad2203280dc\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\972bed4953a1727678956ad2203280dc\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\d9bb7ad45545e31d80d60892b9a18ad0\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\d9bb7ad45545e31d80d60892b9a18ad0\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\ec22ef6589899ea4bd7b547d03a2745a\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\vutie\.gradle\caches\transforms-3\ec22ef6589899ea4bd7b547d03a2745a\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\vutie\.gradle\caches\transforms-3\5e7bc0c6306940d0e373c638bd72b5be\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\vutie\.gradle\caches\transforms-3\5e7bc0c6306940d0e373c638bd72b5be\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\vutie\.gradle\caches\transforms-3\7009e7ec680df98e825f5bfd8f12c038\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\vutie\.gradle\caches\transforms-3\7009e7ec680df98e825f5bfd8f12c038\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
+	android:targetSdkVersion
+		INJECTED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\android\app\src\main\AndroidManifest.xml
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:9-17:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-47
+	android:authorities
+		ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+	android:exported
+		ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-16:75
+	android:resource
+		ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-72
+	android:name
+		ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:17-67
+service#com.google.android.gms.metadata.ModuleDependencies
+ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-31:19
+	android:enabled
+		ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-36
+	android:exported
+		ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-37
+	tools:ignore
+		ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-40
+	android:name
+		ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-78
+intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-26:29
+action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:25:17-94
+	android:name
+		ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:25:25-91
+meta-data#photopicker_activity:0:required
+ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-30:36
+	android:value
+		ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:30:17-33
+	android:name
+		ADDED from [:image_picker_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-63
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-74
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\7a73b236f1c3c486738d1dac7527b32a\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\7a73b236f1c3c486738d1dac7527b32a\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\7a73b236f1c3c486738d1dac7527b32a\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\7a73b236f1c3c486738d1dac7527b32a\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\7a73b236f1c3c486738d1dac7527b32a\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] C:\Users\vutie\.gradle\caches\transforms-3\7a73b236f1c3c486738d1dac7527b32a\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\9d3a3d742b33098f8d736f85601590e1\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vutie\.gradle\caches\transforms-3\f6356104dd0a96e335b9f1d05cf1d55e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vutie\.gradle\caches\transforms-3\f6356104dd0a96e335b9f1d05cf1d55e\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\9d3a3d742b33098f8d736f85601590e1\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\9d3a3d742b33098f8d736f85601590e1\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\9d3a3d742b33098f8d736f85601590e1\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\9d3a3d742b33098f8d736f85601590e1\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\9d3a3d742b33098f8d736f85601590e1\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\9d3a3d742b33098f8d736f85601590e1\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vutie\.gradle\caches\transforms-3\9d3a3d742b33098f8d736f85601590e1\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\f54fcf07355d3df5632626c3443a6e41\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\f54fcf07355d3df5632626c3443a6e41\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\f54fcf07355d3df5632626c3443a6e41\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.example.flutter_social_share.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\f54fcf07355d3df5632626c3443a6e41\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\f54fcf07355d3df5632626c3443a6e41\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\f54fcf07355d3df5632626c3443a6e41\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\f54fcf07355d3df5632626c3443a6e41\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\f54fcf07355d3df5632626c3443a6e41\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.example.flutter_social_share.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\f54fcf07355d3df5632626c3443a6e41\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\vutie\.gradle\caches\transforms-3\f54fcf07355d3df5632626c3443a6e41\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vutie\.gradle\caches\transforms-3\023ce3603e45cd06ad0daa51f82dde80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92

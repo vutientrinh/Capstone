@@ -1,0 +1,1 @@
+ C:\\WorkSpace\\Code\\flutter-social-app_share\\flutter-social-app_share\\flutter-social-share\\.dart_tool\\flutter_build\\ad58085f2d86e0fcb71993a65d48b567\\native_assets.yaml: 

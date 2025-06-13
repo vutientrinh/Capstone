@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="C:\Users\vutie\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_android-12.1.0\android"
+    name=":permission_handler_android"
+    type="LIBRARY"
+    maven="com.baseflow.permissionhandler:permission_handler_android:"
+    agpVersion="8.2.1"
+    buildFolder="C:\WorkSpace\Code\flutter-social-app_share\flutter-social-app_share\flutter-social-share\build\permission_handler_android"
+    bootClassPath="C:\Users\vutie\AppData\Local\Android\Sdk\platforms\android-34\android.jar;C:\Users\vutie\AppData\Local\Android\sdk\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
