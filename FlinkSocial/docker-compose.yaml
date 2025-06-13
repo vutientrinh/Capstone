@@ -1,0 +1,46 @@
+version: '1.0'
+
+services:
+  jobmanager:
+    image: flink:1.18
+    container_name: jobmanager
+    ports:
+      - "8081:8081"
+    command: jobmanager
+    environment:
+      - JOB_MANAGER_RPC_ADDRESS=jobmanager
+    networks:
+      - code-with-yu
+    extra_hosts:
+      - "host.docker.internal:172.17.0.1"
+
+  taskmanager:
+    image: flink:1.18
+    container_name: taskmanager
+    depends_on:
+      - jobmanager
+    command: taskmanager
+    environment:
+      - JOB_MANAGER_RPC_ADDRESS=jobmanager
+    networks:
+      - code-with-yu
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-ai
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_DATABASE=springai
+    networks:
+      - code-with-yu
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+      timeout: 20s
+      retries: 10
+
+networks:
+  code-with-yu:
+    external: true
