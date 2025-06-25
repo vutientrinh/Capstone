@@ -21,15 +21,14 @@ By merging social engagement and shopping features, this system enhances the use
 
 ---
 
-## 🛠️ Tech Stack (Example)
+## 🛠️ Tech Stack 
 
-> _Note: Replace or add to these as per your actual stack._
 
-- **Frontend**: ReactJS / Flutter
-- **Backend**: Spring Boot / Flask
+- **Frontend**: NextJS / Flutter
+- **Backend**: Spring Boot / SpringAI / Socket.IO / Flask
 - **Database**: PostgreSQL / MongoDB / MySQL
 - **Authentication**: JWT
 - **APIs**: RESTful APIs
-- **DevOps**: Docker
+- **DevOps**: Docker / GCP
 
 ---
